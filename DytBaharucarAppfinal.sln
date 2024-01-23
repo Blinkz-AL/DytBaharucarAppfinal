@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DytBaharucarAppfinal", "DytBaharucarAppfinal\DytBaharucarAppfinal.csproj", "{C537CD26-6CAD-496A-8585-A5F7B0456672}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DytBaharAppSetup", "DytBaharAppSetup\DytBaharAppSetup.vdproj", "{78ABAAC3-C754-4D68-AB21-5FD143084BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C537CD26-6CAD-496A-8585-A5F7B0456672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C537CD26-6CAD-496A-8585-A5F7B0456672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C537CD26-6CAD-496A-8585-A5F7B0456672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C537CD26-6CAD-496A-8585-A5F7B0456672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78ABAAC3-C754-4D68-AB21-5FD143084BBE}.Debug|Any CPU.ActiveCfg = Debug
+		{78ABAAC3-C754-4D68-AB21-5FD143084BBE}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2E56C1E-F2CC-4646-AE2A-571FB55EFC66}
+	EndGlobalSection
+EndGlobal

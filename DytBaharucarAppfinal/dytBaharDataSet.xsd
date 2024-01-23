@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dytBaharDataSet" targetNamespace="http://tempuri.org/dytBaharDataSet.xsd" xmlns:mstns="http://tempuri.org/dytBaharDataSet.xsd" xmlns="http://tempuri.org/dytBaharDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dytBaharConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dytBaharConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DytBaharucarAppfinal.Properties.Settings.GlobalReference.Default.dytBaharConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="appointmentsTableAdapter" GeneratorDataComponentClassName="appointmentsTableAdapter" Name="appointments" UserDataComponentName="appointmentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dytBaharConnectionString (Settings)" DbObjectName="dytBahar.dbo.appointments" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT time_09_00, time_09_40, time_10_20, time_11_00, time_11_40, time_12_20, time_13_00, time_13_40, time_14_20, time_15_00, time_15_40, time_16_20, time_17_00, time_17_40, time_18_20, time_19_00, time_19_40, time_20_20, time_21_00 FROM dbo.appointments</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="time_09_00" DataSetColumn="time_09_00" />
+              <Mapping SourceColumn="time_09_40" DataSetColumn="time_09_40" />
+              <Mapping SourceColumn="time_10_20" DataSetColumn="time_10_20" />
+              <Mapping SourceColumn="time_11_00" DataSetColumn="time_11_00" />
+              <Mapping SourceColumn="time_11_40" DataSetColumn="time_11_40" />
+              <Mapping SourceColumn="time_12_20" DataSetColumn="time_12_20" />
+              <Mapping SourceColumn="time_13_00" DataSetColumn="time_13_00" />
+              <Mapping SourceColumn="time_13_40" DataSetColumn="time_13_40" />
+              <Mapping SourceColumn="time_14_20" DataSetColumn="time_14_20" />
+              <Mapping SourceColumn="time_15_00" DataSetColumn="time_15_00" />
+              <Mapping SourceColumn="time_15_40" DataSetColumn="time_15_40" />
+              <Mapping SourceColumn="time_16_20" DataSetColumn="time_16_20" />
+              <Mapping SourceColumn="time_17_00" DataSetColumn="time_17_00" />
+              <Mapping SourceColumn="time_17_40" DataSetColumn="time_17_40" />
+              <Mapping SourceColumn="time_18_20" DataSetColumn="time_18_20" />
+              <Mapping SourceColumn="time_19_00" DataSetColumn="time_19_00" />
+              <Mapping SourceColumn="time_19_40" DataSetColumn="time_19_40" />
+              <Mapping SourceColumn="time_20_20" DataSetColumn="time_20_20" />
+              <Mapping SourceColumn="time_21_00" DataSetColumn="time_21_00" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dytBaharDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dytBaharDataSet" msprop:Generator_UserDSName="dytBaharDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="appointments" msprop:Generator_TableClassName="appointmentsDataTable" msprop:Generator_TableVarName="tableappointments" msprop:Generator_TablePropName="appointments" msprop:Generator_RowDeletingName="appointmentsRowDeleting" msprop:Generator_RowChangingName="appointmentsRowChanging" msprop:Generator_RowEvHandlerName="appointmentsRowChangeEventHandler" msprop:Generator_RowDeletedName="appointmentsRowDeleted" msprop:Generator_UserTableName="appointments" msprop:Generator_RowChangedName="appointmentsRowChanged" msprop:Generator_RowEvArgName="appointmentsRowChangeEvent" msprop:Generator_RowClassName="appointmentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="time_09_00" msprop:Generator_ColumnVarNameInTable="columntime_09_00" msprop:Generator_ColumnPropNameInRow="time_09_00" msprop:Generator_ColumnPropNameInTable="time_09_00Column" msprop:Generator_UserColumnName="time_09_00" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_09_40" msprop:Generator_ColumnVarNameInTable="columntime_09_40" msprop:Generator_ColumnPropNameInRow="time_09_40" msprop:Generator_ColumnPropNameInTable="time_09_40Column" msprop:Generator_UserColumnName="time_09_40" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_10_20" msprop:Generator_ColumnVarNameInTable="columntime_10_20" msprop:Generator_ColumnPropNameInRow="time_10_20" msprop:Generator_ColumnPropNameInTable="time_10_20Column" msprop:Generator_UserColumnName="time_10_20" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_11_00" msprop:Generator_ColumnVarNameInTable="columntime_11_00" msprop:Generator_ColumnPropNameInRow="time_11_00" msprop:Generator_ColumnPropNameInTable="time_11_00Column" msprop:Generator_UserColumnName="time_11_00" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_11_40" msprop:Generator_ColumnVarNameInTable="columntime_11_40" msprop:Generator_ColumnPropNameInRow="time_11_40" msprop:Generator_ColumnPropNameInTable="time_11_40Column" msprop:Generator_UserColumnName="time_11_40" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_12_20" msprop:Generator_ColumnVarNameInTable="columntime_12_20" msprop:Generator_ColumnPropNameInRow="time_12_20" msprop:Generator_ColumnPropNameInTable="time_12_20Column" msprop:Generator_UserColumnName="time_12_20" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_13_00" msprop:Generator_ColumnVarNameInTable="columntime_13_00" msprop:Generator_ColumnPropNameInRow="time_13_00" msprop:Generator_ColumnPropNameInTable="time_13_00Column" msprop:Generator_UserColumnName="time_13_00" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_13_40" msprop:Generator_ColumnVarNameInTable="columntime_13_40" msprop:Generator_ColumnPropNameInRow="time_13_40" msprop:Generator_ColumnPropNameInTable="time_13_40Column" msprop:Generator_UserColumnName="time_13_40" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_14_20" msprop:Generator_ColumnVarNameInTable="columntime_14_20" msprop:Generator_ColumnPropNameInRow="time_14_20" msprop:Generator_ColumnPropNameInTable="time_14_20Column" msprop:Generator_UserColumnName="time_14_20" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_15_00" msprop:Generator_ColumnVarNameInTable="columntime_15_00" msprop:Generator_ColumnPropNameInRow="time_15_00" msprop:Generator_ColumnPropNameInTable="time_15_00Column" msprop:Generator_UserColumnName="time_15_00" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_15_40" msprop:Generator_ColumnVarNameInTable="columntime_15_40" msprop:Generator_ColumnPropNameInRow="time_15_40" msprop:Generator_ColumnPropNameInTable="time_15_40Column" msprop:Generator_UserColumnName="time_15_40" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_16_20" msprop:Generator_ColumnVarNameInTable="columntime_16_20" msprop:Generator_ColumnPropNameInRow="time_16_20" msprop:Generator_ColumnPropNameInTable="time_16_20Column" msprop:Generator_UserColumnName="time_16_20" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_17_00" msprop:Generator_ColumnVarNameInTable="columntime_17_00" msprop:Generator_ColumnPropNameInRow="time_17_00" msprop:Generator_ColumnPropNameInTable="time_17_00Column" msprop:Generator_UserColumnName="time_17_00" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_17_40" msprop:Generator_ColumnVarNameInTable="columntime_17_40" msprop:Generator_ColumnPropNameInRow="time_17_40" msprop:Generator_ColumnPropNameInTable="time_17_40Column" msprop:Generator_UserColumnName="time_17_40" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_18_20" msprop:Generator_ColumnVarNameInTable="columntime_18_20" msprop:Generator_ColumnPropNameInRow="time_18_20" msprop:Generator_ColumnPropNameInTable="time_18_20Column" msprop:Generator_UserColumnName="time_18_20" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_19_00" msprop:Generator_ColumnVarNameInTable="columntime_19_00" msprop:Generator_ColumnPropNameInRow="time_19_00" msprop:Generator_ColumnPropNameInTable="time_19_00Column" msprop:Generator_UserColumnName="time_19_00" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_19_40" msprop:Generator_ColumnVarNameInTable="columntime_19_40" msprop:Generator_ColumnPropNameInRow="time_19_40" msprop:Generator_ColumnPropNameInTable="time_19_40Column" msprop:Generator_UserColumnName="time_19_40" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_20_20" msprop:Generator_ColumnVarNameInTable="columntime_20_20" msprop:Generator_ColumnPropNameInRow="time_20_20" msprop:Generator_ColumnPropNameInTable="time_20_20Column" msprop:Generator_UserColumnName="time_20_20" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time_21_00" msprop:Generator_ColumnVarNameInTable="columntime_21_00" msprop:Generator_ColumnPropNameInRow="time_21_00" msprop:Generator_ColumnPropNameInTable="time_21_00Column" msprop:Generator_UserColumnName="time_21_00" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
